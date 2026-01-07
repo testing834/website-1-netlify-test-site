@@ -3,8 +3,20 @@
   <head>
     <title>Hello Netlify!</title>
     <style>
-        body { font-family: Aptos, sans-serif; text-align: center; padding-top: 50px; color: navy; }
+        body { font-family: Aptos, sans-serif; text-align: center; padding-top: 50px; color: navy; background-color: #FDF5F0; }
         h1 { color: navy; }
+        form { display: inline-block; text-align: left; }
+        form p { text-align: left; }
+        form input[type="text"], form input[type="email"], form textarea {
+            width: 300px;
+            border: 2px solid navy;
+            padding: 5px;
+            box-sizing: border-box;
+            display: block;
+            margin-top: 5px;
+        }
+        form textarea { height: 100px; resize: vertical; }
+        form label { display: block; margin-bottom: 10px; }
     </style>
    </head>
   <body>
