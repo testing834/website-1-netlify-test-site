@@ -1,0 +1,2 @@
+# Syntax: /path  Target-URL  Status-Code
+/google   https://www.google.com   301
