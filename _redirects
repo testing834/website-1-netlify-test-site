@@ -1,2 +1,3 @@
 # Syntax: /path  Target-URL  Status-Code
 /google   https://www.google.com   301
+/nyt  https://www.nytimes.com  301
